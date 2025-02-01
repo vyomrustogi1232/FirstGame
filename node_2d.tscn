@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1j5woj5l1hi5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wl1of"]
+size = Vector2(19.804, 0.697232)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Wall bottom" type="StaticBody2D" parent="."]
+position = Vector2(34, 38)
+scale = Vector2(1, 4.24)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall bottom"]
+position = Vector2(697, 100)
+rotation = -3.14159
+scale = Vector2(59.7981, -38.892)
+shape = SubResource("RectangleShape2D_wl1of")
